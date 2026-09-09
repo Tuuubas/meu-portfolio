@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <h1>Seu Nome</h1>
+        <p>Estudante de Tecnologia</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="inicio">
+            <h2>Olá, eu sou Seu Nome!</h2>
+
+            <p>
+                Sou estudante de tecnologia e estou desenvolvendo
+                meus conhecimentos em programação e desenvolvimento web.
+            </p>
+
+            <a href="#projetos">Ver meus projetos</a>
+        </section>
+
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+
+            <img src="img/foto-perfil.jpg"
+                 alt="Foto de perfil">
+
+            <p>
+                Atualmente estou cursando um curso técnico na área de
+                tecnologia. Tenho interesse em desenvolvimento web,
+                programação e criação de projetos.
+            </p>
+        </section>
+
+
+        <section id="projetos">
+
+            <h2>Projetos</h2>
+
+            <article>
+                <h3>Projeto 1</h3>
+
+                <p>
+                    Descrição do meu primeiro projeto.
+                </p>
+
+                <p>
+                    Tecnologias: HTML, CSS e JavaScript.
+                </p>
+
+                <a href="https://github.com/SEU-USUARIO">
+                    GitHub
+                </a>
+            </article>
+
+
+            <article>
+                <h3>Projeto 2</h3>
+
+                <p>
+                    Descrição do meu segundo projeto.
+                </p>
+
+                <p>
+                    Tecnologias: HTML e CSS.
+                </p>
+
+                <a href="https://github.com/SEU-USUARIO">
+                    GitHub
+                </a>
+            </article>
+
+        </section>
+
+
+        <section id="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>Visual Studio Code</li>
+            </ul>
+
+        </section>
+
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <p>
+                Entre em contato comigo:
+            </p>
+
+            <a href="https://github.com/SEU-USUARIO">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/">
+                LinkedIn
+            </a>
+
+            <a href="mailto:seuemail@email.com">
+                E-mail
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 - Seu Nome</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
